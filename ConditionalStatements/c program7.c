@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    printf("Enter first integer: ");
+    scanf("%d", &a);
+    printf("Enter second integer: ");
+    scanf("%d", &b);
+    if ((a ^ b) == 0) {
+        printf("Both numbers are equal\n");
+    } else {
+        printf("Both numbers are not equal\n");
+    }
+
+    
+}
